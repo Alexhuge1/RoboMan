@@ -1,0 +1,17 @@
+{"time":"2025-03-26T13:50:35.622926884+08:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/home/alexhuge/Documents/GitHub/RoboMan/roboman_train/humanoid/scripts/wandb/run-20250326_135035-pbuxe24e/logs/debug-core.log"}
+{"time":"2025-03-26T13:50:35.725298403+08:00","level":"INFO","msg":"created new stream","id":"pbuxe24e"}
+{"time":"2025-03-26T13:50:35.725343434+08:00","level":"INFO","msg":"stream: started","id":"pbuxe24e"}
+{"time":"2025-03-26T13:50:35.72540829+08:00","level":"INFO","msg":"handler: started","stream_id":"pbuxe24e"}
+{"time":"2025-03-26T13:50:35.725457328+08:00","level":"INFO","msg":"writer: Do: started","stream_id":"pbuxe24e"}
+{"time":"2025-03-26T13:50:35.725415949+08:00","level":"INFO","msg":"sender: started","stream_id":"pbuxe24e"}
+{"time":"2025-03-26T13:50:37.273292425+08:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-26T13:50:47.369234812+08:00","level":"INFO","msg":"tensorboard: no root directory after 10 seconds, using working directory"}
+{"time":"2025-03-26T13:50:47.369699479+08:00","level":"ERROR","msg":"tensorboard: file is not under TB root","rootDir":"/home/alexhuge/Documents/GitHub/RoboMan/roboman_train/humanoid/scripts","path":"/home/alexhuge/Documents/GitHub/RoboMan/roboman_train/logs/wsybot_ppo/Mar26_13-50-32_/events.out.tfevents.1742968237.alexhuge4090d.249343.0"}
+{"time":"2025-03-26T13:50:52.987406621+08:00","level":"INFO","msg":"stream: closing","id":"pbuxe24e"}
+{"time":"2025-03-26T13:50:52.987468779+08:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-26T13:50:52.989180044+08:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-26T13:50:54.696516416+08:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-26T13:50:56.136668263+08:00","level":"INFO","msg":"handler: closed","stream_id":"pbuxe24e"}
+{"time":"2025-03-26T13:50:56.136718714+08:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pbuxe24e"}
+{"time":"2025-03-26T13:50:56.136728907+08:00","level":"INFO","msg":"sender: closed","stream_id":"pbuxe24e"}
+{"time":"2025-03-26T13:50:56.136883837+08:00","level":"INFO","msg":"stream: closed","id":"pbuxe24e"}
