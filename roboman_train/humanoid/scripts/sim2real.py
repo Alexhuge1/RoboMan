@@ -106,6 +106,7 @@ def decode_motor_data(data, p_min, p_max, v_min, v_max, bits):
         v_float_list.append(v_float)
 
     return p_float_list, v_float_list
+#解码是否正确
 
 
 # uint to float
@@ -283,7 +284,7 @@ while True:
     # ====
     time.sleep(0.0005)
 
-    if count_lowlevel % 2 == 0:
+    if count_lowlevel % 1 == 0:
         # 非阻塞方式获取数据
         try:
             quat, omega = imu_queue.get_nowait()
@@ -299,12 +300,8 @@ while True:
         omega = [0.0, 0.0, 0.0]
         eu_ang = [0.0, 0.0, 0.0]
 
-        obs[0, 0] = math.cos(2 * math.pi * count_lowlevel * 0.01 / 0.70)
-        obs[0, 1] = math.sin(2 * math.pi * count_lowlevel * 0.01 / 0.70)
-
-        # obs[0, 0] = math.sin(2 * math.pi * count_lowlevel * 0.02 / 0.70)
-        # obs[0, 1] = math.cos(2 * math.pi * count_lowlevel * 0.02 / 0.70)
-
+        obs[0, 0] = math.cos(2 * math.pi * count_lowlevel * 0.02 / 0.70)
+        obs[0, 1] = math.sin(2 * math.pi * count_lowlevel * 0.02 / 0.70)
         obs[0, 2] = cmd.vx * 2
         obs[0, 3] = cmd.vy * 2
         obs[0, 4] = cmd.dyaw * 1

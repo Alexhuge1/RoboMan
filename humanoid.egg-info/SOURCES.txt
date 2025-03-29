@@ -1,7 +1,0 @@
-README.md
-setup.py
-humanoid.egg-info/PKG-INFO
-humanoid.egg-info/SOURCES.txt
-humanoid.egg-info/dependency_links.txt
-humanoid.egg-info/requires.txt
-humanoid.egg-info/top_level.txt
