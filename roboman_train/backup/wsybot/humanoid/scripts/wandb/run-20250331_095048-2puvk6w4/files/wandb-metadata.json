@@ -1,0 +1,45 @@
+{
+  "os": "Linux-5.15.0-131-generic-x86_64-with-glibc2.17",
+  "python": "CPython 3.8.20",
+  "startedAt": "2025-03-31T01:50:48.150324Z",
+  "args": [
+    "--task=wsybot_ppo"
+  ],
+  "program": "train.py",
+  "codePath": "roboman_train/humanoid/scripts/train.py",
+  "git": {
+    "remote": "https://github.com/Alexhuge1/RoboMan.git",
+    "commit": "d7c264bdf595172f2678b964adaa6b89c2e615a2"
+  },
+  "email": "2200958879@qq.com",
+  "root": "/home/alexhuge/Documents/GitHub/RoboMan/roboman_train/humanoid/scripts",
+  "host": "alexhuge4090d",
+  "executable": "/home/alexhuge/anaconda3/envs/roboman/bin/python",
+  "codePathLocal": "train.py",
+  "cpu_count": 6,
+  "cpu_count_logical": 12,
+  "gpu": "NVIDIA GeForce RTX 4090 D",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "539961516032",
+      "used": "18779041792"
+    }
+  },
+  "memory": {
+    "total": "33467768832"
+  },
+  "cpu": {
+    "count": 6,
+    "countLogical": 12
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4090 D",
+      "memoryTotal": "25757220864",
+      "cudaCores": 14592,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.2"
+}

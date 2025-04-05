@@ -1,0 +1,13 @@
+[34m[1mwandb[0m: [33mWARNING[0m Found log directory outside of given root_logdir, dropping given root_logdir for event file in /home/alexhuge/Documents/GitHub/RoboMan_backup/roboman_train/logs/wsybot_ppo/Apr01_10-50-32_
+Traceback (most recent call last):
+  File "train.py", line 50, in <module>
+    train(args)
+  File "train.py", line 42, in train
+    ppo_runner.learn(
+  File "/home/alexhuge/Documents/GitHub/RoboMan_backup/roboman_train/humanoid/algo/ppo/on_policy_runner.py", line 130, in learn
+    obs, privileged_obs, rewards, dones, infos = self.env.step(actions)
+  File "/home/alexhuge/Documents/GitHub/RoboMan_backup/roboman_train/humanoid/envs/custom/wsybot_env.py", line 210, in step
+    return super().step(actions)
+  File "/home/alexhuge/Documents/GitHub/RoboMan_backup/roboman_train/humanoid/envs/base/legged_robot.py", line 104, in step
+    self.gym.simulate(self.sim)
+KeyboardInterrupt
